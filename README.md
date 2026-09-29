@@ -1,7 +1,7 @@
 # Hypothesis Testing in Healthcare (Python)
 
 **Background:** Pharmaceutical drugs have become an essential part of our health. Therefore, they need to be safe with little or no adverse effects.  
-A pharmaceutical company GlobalXYZ has just completed a randomized controlled drug trial. To promote transparency and reproducibility of the drug's outcome, they (GlobalXYZ) have presented the dataset to your organization, a non-profit that focuses primarily on drug safety.
+A pharmaceutical company, _GlobalXYZ_, has just completed a randomized controlled drug trial. To promote transparency and reproducibility of the drug's outcome, they (GlobalXYZ) have presented the dataset to your organization, a non-profit that focuses primarily on drug safety.
 
 **The Data:** The dataset provided contained five adverse effects, demographic data, vital signs, etc. Your organization is primarily interested in the drug's adverse reactions. It wants to know if the adverse reactions, if any, are of significant proportions. It has asked you to explore and answer some questions from the data.
 
