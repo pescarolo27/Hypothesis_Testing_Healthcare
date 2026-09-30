@@ -17,4 +17,30 @@ This project was done in October, 2025.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Brief Summary
-...
+This project utilizes statistical techniques, primarily hypothesis tests, to evaluate some key objectives regarding individuals' health data & how it was impacted, if at all, by a new hypothetical drug that has been produced by _GlobalXYZ_.  
+The control & treatment groups in the experiment conducted by _GlobalXYZ_ were analyzed in relation to whether individuals reported any adverse effects as well as how many they experienced. Other variables, such as peoples' ages, were also incorporated into the analyses.
+
+A brief evaluation of the dataset revealed that two variables--the number of white & red blood cells--had missing values in more than 40% of the data points. Straightforward imputation methods were utilized to handle these problems, specifically the median & mean respectively.
+
+To evaluate how the new drug affected individuals across the treatment & control groups, proportions of individuals in each were analyzed according to whether they experienced adverse effects or not. Note that of the 16,103 individuals, 10,727 of them were in the treatment (drug) group & 5,376 were in the control (placebo) group, which is about a 2:1 ratio.
+- Initial analyses revealed that the percentage of individuals (within each control/treatment group) who did not experience adverse effects was about 90.45% & 90.48% in the treatment & control groups respectively.
+- A two-sample proportion z-test was employed to further substantiate or oppose these findings. Ultimately, it produced a p-value of about 0.96 which is significantly greater than the typical significance level of five to ten percent. As such, this test indicated that there is no significant evidence from which the null hypothesis can be rejected. In other words, there is not a significant difference in the proportion of individuals who experienced adverse effects from the drug between the drug (treatment) & placebo (control) groups.
+
+Next, to determine if the drug influenced the number of adverse effects that individuals experienced, the number of effects was analyzed across the treatment & control groups.
+- Similarly to the first inquiry, initial analyses found that proportions of individuals across each number of adverse effects were very similar. For example, the percentage of people (within each treatment/control group) who experienced one adverse effect was approximately 8.91% & 9.04% for the treatment & control groups respectively.
+- A chi-square hypothesis test was used to further investigate whether these two variables were independent or not. The smallest p-value obtained from the hypothesis test was about 0.50, which is much greater than a typical significance level of five to ten percent. As such, this test indicated that there is no significant evidence from which the null hypothesis can be rejected. In other words, the number of adverse effects experienced from using the drug is independent of whether an individual is in the control or treatment group.
+
+Finally, the ages of the involved individuals were analyzed across the treatment/control groups to assess whether the drug impacted people differently according to their age.
+- A brief analysis of ages across these two groups revealed quite similar averages & distributions. The average ages were about 64 years in each group.
+- Given the nature of the data, a Mann-Whitney U test was used to further quantify this inquiry. The resulting p-value was about 0.26 which is noticeably larger than the pre-established significance level of five to ten percent. As such, this test failed to find substantial evidence with which to reject the null hypothesis. In other words, there is no significant difference between the ages of individuals in the treatment & control groups.
+
+
+### Recommendations
+These analyses reveal meaningful conclusions regarding some of the effects of the new drug produced by _GlobalXYZ_, specifically in regard to people experiencing adverse effects, the number of such effects, & people's ages. By evaluating these variables across control & treatment groups, it can be indicative as to the true effects of this drug.  
+In all three sections of this project, it was determined that there is no significant relationship these three variables & the drug.
+1) The proportion of individuals who experienced adverse effects from using the drug was not significantly different than that of those who did not use the drug.
+2) The number of adverse effects experienced by individuals who used the drug was found to not be significantly different than the number of effects experienced by people who did not use the drug.
+3) The ages of people across the control & treatment groups was not significantly different, therefore, generally ruling out age as a risk factor when using this drug.
+
+As a result, these findings suggest that using the new drug does not pose any immediate concerns in terms of experiencing adverse effects. Furthermore, age is not a major concern, thus implying that the drug can be used by people of various ages. Additional analyses could be done to evaluate exactly how safe this drug is generally & for particular individuals according to different health qualities, demographics, & other specific details.
+- Obviously, the nature of the drug should still be taken into account when it comes to who may be directed/allowed to take this drug. For instance, giving a new drug to young children is likely not a wise decision given that their bodies are still maturing.
