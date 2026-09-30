@@ -5,7 +5,7 @@ A pharmaceutical company, _GlobalXYZ_, has just completed a randomized controlle
 
 **The Data:** The dataset provided contained five adverse effects, demographic data, vital signs, & other medical information. Your organization is primarily interested in the drug's adverse reactions. It wants to know if the adverse reactions, if any, are of significant proportions. It has asked you to explore and answer some questions from the data. For this project, the dataset has been modified to reflect the presence and absence of adverse effects and the number of adverse effects in a single individual.
 
-**Purpose:** You work with a non-profit that advocates for pharmaceutical drug safety. One of its tasks is to create reports on drugs independent of the drug manufacturer.  
+**Purpose:** You work with a non-profit that advocates for pharmaceutical drug safety. One of its tasks is to create reports on drugs independent of the drug manufacturer. 
 Your organization has asked you to explore and answer some questions from the data collected. Conducting hypothesis tests using Python will help to determine if the adverse reactions of a hypothetical drug are significant or not. Other factors such as age will also be checked to see if they significantly influence the adverse reactions.  
 The primary objectives are listed below.
 1) Determine if the proportion of adverse effects differs significantly between the Drug and Placebo groups.
